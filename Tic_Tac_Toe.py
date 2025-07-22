@@ -1,4 +1,4 @@
-# Procol_inpect: Tic Tac Toe ~ procol_inpect idea credit -tech with tim
+# Tic Tac Toe ~ Project idea credit -tech with tim
 
 def print_board(board):
     for i, row in enumerate(board):
