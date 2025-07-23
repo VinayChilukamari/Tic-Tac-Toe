@@ -1,4 +1,4 @@
-# Tic Tac Toe ~ Project idea credit -tech with tim
+# Procol_inpect: Tic Tac Toe ~ procol_inpect idea credit -tech with tim
 
 def print_board(board):
     for i, row in enumerate(board):
@@ -29,7 +29,7 @@ def inp_turn(board):
                 row_inp, col_inp=int(row_inp)-1,int(col_inp)-1
                 if row_inp<0 or row_inp>2 and col_inp<0 or col_inp>2:
                     print("\nInvalid location input, try again.")
-                elif board[row_inp][col_inp]=='X' or board[row_inp][col_inp]=='x' or board[row_inp][col_inp]=='O' or board[row_inp][col_inp]=='o':
+                elif board[row_inp][col_inp]=='X' or board[row_inp][col_inp]=='O':
                     print("\nPlace is already occupied, try again.")
                 else:
                     inp_board=input(f"Enter what you want to input at loaction {row_inp+1},{col_inp+1}: ")
